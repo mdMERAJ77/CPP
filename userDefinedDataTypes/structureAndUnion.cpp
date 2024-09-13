@@ -4,9 +4,12 @@ using namespace std;
 //for structure
 //in structure all variable size add then give sizeof memory
 struct student{
+	
+	char n,a,b,y,u;
 	int makrks;
 	float avg;
-	double fees;
+	//double fees;
+	
 };
 
 //for union
@@ -24,5 +27,7 @@ int main(){
 	cout<<"structure size= "<<sizeof(s)<<endl; //4+4+8=16bytes
 	cout<<"union size= "<<sizeof(s2)<<endl;// biggest size is 8bytes = 8bytes
 	
+	
+	cout<<sizeof(char);
 	return 0;
 }
