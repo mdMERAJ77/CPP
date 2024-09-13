@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 
-class Person{
+class studentClass{
 	private:
 		int roll;
 		string name;
 		
 	public:
-		int student(){
+		int studentInfo(){
 			cout<<"Enter your roll Number "<<endl;
 			cin>>roll;
 			
@@ -24,8 +24,8 @@ class Person{
 };
 
 int main(){
-	Person obj;
-	obj.student();
+	studentClass obj;
+	obj.studentInfo();
 	obj.display();
 	
 }
