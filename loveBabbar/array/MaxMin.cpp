@@ -13,13 +13,15 @@ int getMax(int arr[], int size){
 	return max;
 }
 int getMin(int arr[], int size){
-	int min=INT_MAX;
+	//int min=INT_MAX;
+	int mini;
 	for(int i=0; i<size; i++){
-		if(min>arr[i]){
-			min=arr[i];
-		}
+//		if(min>arr[i]){
+//			min=arr[i];
+//		}
+		 mini =min(mini,arr[i]);
 	}
-	return min;
+	return mini;
 }
 
 int main(){
