@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 int main(){
-	cout<<"Hello C++";
+	//varialbe declare
+	int a;
+	//now value assign in a
+	a=10;
+	cout<<"number "<<a;
 	return 0;
+	
 }
