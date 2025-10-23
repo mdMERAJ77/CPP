@@ -21,12 +21,6 @@ int main(){
 	bool b1=false;
 	cout<<a1<<" : "<<b1<<endl;
 	
-	int num1,num2;
-	cout<<"enter a number: ";
-	cin>>num1;
-	cout<<"enter second number: ";
-	cin>>num2;
-	cout<<"sum of num1 and num2: "<<num1+num2;
 	return 0;
 	
 }

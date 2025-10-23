@@ -10,7 +10,7 @@ int main(){
 //	cout<<"sum of num1 and num2 is: "<<num1+num2<<endl;
 	
 	//type casting
-	int a=32;
+	int a=65;
 	char c;
 	c=a;
 	cout<<c;
