@@ -7,4 +7,5 @@ int main(){
 	for(int i = 1; i<=n; i++){
 		cout<<i<<" square is: "<<i*i<<endl;
 	}
+	return 0;
 }
