@@ -19,6 +19,7 @@ int main(){
 	cout<<b3<<endl; //10
 	cout<<a3<<endl; //9
 	
+	//pre decrement
 	int a4=10;
 	int b4=--a4;
 	cout<<a4<<endl; //9
