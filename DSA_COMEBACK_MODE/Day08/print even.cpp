@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int n;
+	int num;
 	cout<<"enter a number to print even: ";
-	cin>>n;
+	cin>>num;
 	int i=0;
-	while(i<=n){
+	while(i<=num){
 		cout<<i<<" ";
 		i=i+2;
 	}
