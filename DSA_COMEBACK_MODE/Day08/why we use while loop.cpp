@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int n;
+	int num;
 	cout<<"enter number (0 to stop): ";
-	cin>>n;
-	while(n!=0){
-		cout<<"You entered: "<<n<<endl;
+	cin>>num;
+	while(num!=0){
+		cout<<"You entered: "<<num<<endl;
 		cout<<"enter number (0 to stop): ";
-		cin>>n;
+		cin>>num;
 	}
 	cout<<"You entered 0 So, while loop ended successfully";
 	return 0;
