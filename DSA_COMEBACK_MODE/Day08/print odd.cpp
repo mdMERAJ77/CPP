@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int n;
+	int num;
 	cout<<"enter a number to print odd: ";
-	cin>>n;
+	cin>>num;
 	
 	int i=1;
-	while(i<=n){
+	while(i<=num){
 		cout<<i<<" ";
 		i=i+2;
 	}
