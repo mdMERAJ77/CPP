@@ -6,7 +6,7 @@ int main(){
 		cout<<i<<" ";
 		i++;
 	}
-	while(i>=10); 
+	while(i>=5); 
 	return 0;
 }
 //do while loop: runs atleast once time
