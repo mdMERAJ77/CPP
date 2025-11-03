@@ -4,18 +4,13 @@ int main(){
 	int num;
 	cout<<"enter a number: ";
 	cin>>num;
-	
 	int rem,ans=0,mul=1;
 	while(num>0){
-		//remainder
-		rem=num%2;
-		//quotient
-		num=num/2;
-		//ans
+		rem=num%2; //we also use bitwise AND: num&1
+		num=num/2; //we also use right shift operator: num>>1 
 		ans=rem*mul+ans;
-		//multiple with 10
 		mul=mul*10;
 	}
-	cout<<ans<<endl;
+	cout<<ans;
 	return 0;
 }
