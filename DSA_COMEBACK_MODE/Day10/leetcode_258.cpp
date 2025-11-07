@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
+	//LEETCODE 258
 	int ans=0,rem,num;
 	cout<<"enter a number: ";
 	cin>>num;
