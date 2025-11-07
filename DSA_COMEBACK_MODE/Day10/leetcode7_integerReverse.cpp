@@ -15,6 +15,6 @@ int main(){
 		}
 		ans=ans*10+rem;
 	}
-	cout<<"is reverse number: "<<ans;
+	cout<<"reverse number: "<<ans;
 	return 0;
 }
