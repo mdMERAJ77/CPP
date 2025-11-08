@@ -16,14 +16,14 @@ int main(){
 			return 0;
 		}
 		ans=ans*10+rem;
-	}
-	if(ans==copy){
+		}
+		if(ans==copy){
 		cout<<"is palindrome: "<<ans;
 		return 0;
-	}
-	else{
+		}
+		else{
 		cout<<"is not a palindrome: "<<ans;
 		return 0;
-	}
+		}
 	return 0;
 }
