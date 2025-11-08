@@ -5,6 +5,10 @@ int main(){
 	int num,ans=0,rem,mul=1;
 	cout<<"enter a number: ";
 	cin>>num;
+	if(num==0){
+		cout<<"1";
+		return 0;
+	}
 	while(num>0){
 		rem=num%2;
 		if(rem==1){
