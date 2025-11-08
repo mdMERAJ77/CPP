@@ -1,5 +1,4 @@
 #include<iostream>
-#include<climits>
 using namespace std;
 int main(){
 	int num,ans=0,rem,mul=1;
