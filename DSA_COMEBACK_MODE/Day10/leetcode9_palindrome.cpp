@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int num,ans=0,copy,rem;
+	int num,copy,rem;
+	long ans=0; // to handle integer overflow
 	cout<<"enter a number: ";
 	cin>>num;
 	copy=num;
