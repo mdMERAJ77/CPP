@@ -10,7 +10,7 @@ void swap(int &m, int &n){
 
 int main(){
 	int a,b;
-	cout<<"enter a 2 number: ";
+	cout<<"enter a two number: ";
 	cin>>a>>b;
 	swap(a,b);
 	cout<<"swap: "<<a<<" "<<b;
