@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//function: trailing zeroes in factorial.   (to find zeroes in factorial)
+//function: TZ_in_Factorial.   (to find zeroes in factorial)
 int TZ_in_Factorial(int n){
 	int ans=0;
 	while(n>=5){
