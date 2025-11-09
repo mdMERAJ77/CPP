@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 
-//&a,&b this is called pass by reference(point same mememory address)
-void swap(int &a, int &b){
-	a=a+b;
-	b=a-b;
-	a=a-b;
+//&m, &n this is called pass by reference(point same mememory address)
+void swap(int &m, int &n){
+	m=m+n;
+	n=m-n;
+	m=m-n;
 }
 
 int main(){
