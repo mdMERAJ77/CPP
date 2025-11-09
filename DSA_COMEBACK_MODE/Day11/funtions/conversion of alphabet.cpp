@@ -15,7 +15,7 @@ char smallToCapital(char ch){
 char capitalToSmall(char ch){
 	if(ch>='A' && ch<='Z'){
 		char ans=ch+32;
-		return ch;
+		return ans;
 	}
 	else {
         cout << "Invalid input for capitalToSmall()" << endl;
