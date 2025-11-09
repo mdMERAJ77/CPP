@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-//&a,&b this is called pass by reference(address same mememory address)
+//&a,&b this is called pass by reference(point same mememory address)
 void swap(int &a, int &b){
 	a=a+b;
 	b=a-b;
