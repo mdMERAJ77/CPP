@@ -1,24 +1,36 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-	char ans,ch;
-	cout<<"enter small character: ";
-	cin>>ch;
-	
+char smallToCapital(char ch){
 	if(ch>='a' && ch<='z'){
-		ans=ch-32;
-		cout<<"convert capital character: "<<ans;
-		return 0;
+		char ans=ch-32;
+		return ans;
 	}
-	else if(ch>='A' && ch<='Z'){
-		ans=ch+32;
-		cout<<"convert small character: "<<ans;
-		return 0;
+	else {
+        cout << "Invalid input for smallToCaptial()" << endl;
+        return ch;
+    }
+}
+//capital to small function
+char capitalToSmall(char ch){
+	if(ch>='A' && ch<='Z'){
+		char ans=ch+32;
+		return ch;
 	}
-	else{
-		cout<<"not a aplhabet!";
-		return 0;
-	}
+	else {
+        cout << "Invalid input for capitalToSmall()" << endl;
+        return ch;
+    }
+}
+
+int main(){
+	char ch1,ch2;
+	cout<<"enter small character: ";
+	cin>>ch1;
+	cout<<"enter capital character: ";
+	cin>>ch2;
+	//function call
+	cout<<"convert into capital: "<<smallToCapital(ch1)<<endl;
+	cout<<"convert into small: "<<capitalToSmall(ch2);
 	return 0;
 }
