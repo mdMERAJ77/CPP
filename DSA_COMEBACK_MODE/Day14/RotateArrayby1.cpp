@@ -12,7 +12,7 @@ int main(){
 	//store last index value
 	int lastIndex=arr[n-1];
 	
-	//shift index to right
+	//shift index to right side
 	for(int i=n-2;i>=0;i--){
 		arr[i+1]=arr[i];
 		
