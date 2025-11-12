@@ -19,7 +19,7 @@ int main(){
 	//assign last index into first index
 	arr[0]=lastIndex;
 	
-	//print array
+	//print Rotate array by 1
 	for(int i=0;i<n;i++){
 		cout<<arr[i]<<" ";
 	}
